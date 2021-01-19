@@ -745,7 +745,7 @@ body.light_blue #full_slider.full_slider_inner {
     display: inline-block;
     line-height: normal;
     font-size: 100%;
-    height: 100%;
+    /* height: 90%; */
 }
 
 .main-menu .navbar-default {
@@ -768,8 +768,8 @@ body.light_blue #full_slider.full_slider_inner {
 }
 
 .main-menu nav li a {
-    padding: 43px 0px 15px;
-    margin: 0 14px;
+    padding: 40px 0px 15px;
+    margin: 0 12px;
     /* color: #fff; */
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Goldana'; */
@@ -790,6 +790,7 @@ body.light_blue #full_slider.full_slider_inner {
     position: absolute;
     bottom: 0;
     left: 0;
+
     width: 100%;
     height: 3px;
     -webkit-transform: scale3d(0, 1, 1);
@@ -803,7 +804,8 @@ body.light_blue #full_slider.full_slider_inner {
 
 
 .main-menu nav li a::before {
-    background: #b5b5b5;
+    /* background: #b5b5b5; */
+    background: #c6a863;
     -webkit-transition-delay: 0.4s;
     transition-delay: 0.4s;
 }
@@ -811,6 +813,7 @@ body.light_blue #full_slider.full_slider_inner {
 .main-menu nav li.active a::before {
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
+
 }
 
 .main-menu nav li.active a::after,
@@ -1125,25 +1128,26 @@ body.light_blue #full_slider.full_slider_inner {
 -------------------------------------------------------------------*/
 
 .about-main {
+    /* margin-top: 10px; */
     /* background: #E6E6E6; */
     background: #c6a863;
-
+    /* padding: 10px 0; */
 }
 
 .pad-top-100 {
-    padding-top: 90px;
+    padding-top: 105px;
 }
 
 .pad-bottom-100 {
-    padding-bottom: 90px;
+    padding-bottom: 105px;
 }
 
 .pad-top-70 {
-    padding-top: 70px;
+    padding-top: 80px;
 }
 
 .pad-bottom-70 {
-    padding-bottom: 70px;
+    padding-bottom: 80px;
 }
 
 .block-title {
@@ -1364,7 +1368,9 @@ body.light_blue #full_slider.full_slider_inner {
 -------------------------------------------------------------------*/
 
 
-.menu-main {}
+.menu-main {
+    padding: 105px 0;
+}
 
 .menu-main .title-caption {
     color: #666;
@@ -1482,6 +1488,7 @@ body.light_blue #full_slider.full_slider_inner {
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+    padding: 105px 0;
 }
 
 .team-main:before {
@@ -1610,7 +1617,9 @@ body.light_blue #full_slider.full_slider_inner {
     GALLERY AREA
 -------------------------------------------------------------------*/
 
-.gallery-main {}
+.gallery-main {
+    padding: 105px 0;
+}
 
 .gallery-main .title-caption {
     color: #666;
@@ -1757,6 +1766,10 @@ body.light_blue #full_slider.full_slider_inner {
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+
+
+    padding: 105px 0;
+    /* width: 100%; */
 }
 
 .video-main::before {
@@ -1779,6 +1792,7 @@ body.light_blue #full_slider.full_slider_inner {
 }
 
 .video-block {
+    display: flex;
     background: #FFF;
     overflow: auto;
     margin-bottom: 20px;
@@ -1814,6 +1828,12 @@ body.light_blue #full_slider.full_slider_inner {
 
 .video-img-box img {
     width: 100%;
+    height: 100%;
+}
+
+.video-img-box iframe {
+    width: 100%;
+    height: 100%;
 }
 
 .overlay i {
@@ -1831,28 +1851,33 @@ body.light_blue #full_slider.full_slider_inner {
     height: 100%;
     float: right;
     text-align: center;
-    padding: 65px 2% 0 2%;
+    padding: 30px 2% 0 2%;
 }
 
 .video-dit p {
-    font-size: 12px;
-    color: #ccc;
+    font-size: 8;
+    font-family: 'Goldana';
+    /* color: #ccc; */
+    color: #000;
 }
 
 .video-dit h2 {
     font-size: 22px;
-    line-height: 20px;
+    line-height: 15px;
     color: #000;
+    font-family: 'Goldana';
     font-weight: 500;
     margin-bottom: 20px;
-    padding: 10px 30px 13px 30px;
+    padding: 10px 10px 10px 10px;
     border-top: 1px solid #eaeaea;
     border-bottom: 1px solid #eaeaea;
 }
 
 .video-dit h5 {
-    font-size: 11px;
-    color: #ccc;
+    /* font-family: 'Goldana'; */
+    font-size: 10px;
+    color: #000;
+    /* color: #ccc; */
 }
 
 .video-btn-v {
@@ -2161,7 +2186,8 @@ select:focus,
 
 #mu-contact {
     background-color: #f8f8f8;
-    display: inline;
+    /* background-color: #c6a863; */
+    display: flex;
     float: left;
     padding: 100px 0;
     width: 100%;
