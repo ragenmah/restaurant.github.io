@@ -283,6 +283,19 @@ header.affixed #PageTop {
     color: #1a1a1a;
 }
 
+#HeaderSocial .btn-links {
+    margin: 0;
+    position: relative;
+    /* display: inline-block; */
+    height: 32px;
+    padding: 10px 15px 0;
+    font-size: 12px;
+    line-height: 1em;
+    font-family: 'Futura Bold';
+    text-transform: uppercase;
+    color: #fff;
+}
+
 .social-links {
     font-size: 22px;
 }

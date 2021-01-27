@@ -1,161 +1,1105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Restaurant | Video Gallery</Video></title>
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- color -->
-    <link id="changeable-colors" rel="stylesheet" href="css/colors/orange.css" />
-
-    <!-- Modernizer -->
-    <script src="js/modernizer.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" id="ao_optimized_gfonts"
+        href="https://fonts.googleapis.com/css?family=Josefin+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CJosefin+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CSatisfy%3Aregular%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CJosefin+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" />
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://demo.ovathemes.com/reon/xmlrpc.php">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link media="all"
+        href="http://demo.ovathemes.com/reon/wp-content/cache/autoptimize/css/autoptimize_396176406a685649788934a79b5dee14.css"
+        rel="stylesheet" />
+    <title>Contact Us v2 &#8211; Reon Restaurant WordPress Theme</title>
+    <link rel='dns-prefetch' href='//demo.ovathemes.com' />
+    <link href='https://fonts.gstatic.com' crossorigin='anonymous' rel='preconnect' />
+    <link rel="alternate" type="application/rss+xml" title="Reon Restaurant WordPress Theme &raquo; Feed"
+        href="http://demo.ovathemes.com/reon/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Reon Restaurant WordPress Theme &raquo; Comments Feed"
+        href="http://demo.ovathemes.com/reon/comments/feed/" />
+    <script type='text/javascript' src='http://demo.ovathemes.com/reon/wp-includes/js/jquery/jquery.min.js'
+        id='jquery-core-js'></script>
+    <link rel="https://api.w.org/" href="http://demo.ovathemes.com/reon/wp-json/" />
+    <link rel="alternate" type="application/json" href="http://demo.ovathemes.com/reon/wp-json/wp/v2/pages/78" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://demo.ovathemes.com/reon/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="http://demo.ovathemes.com/reon/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 5.6" />
+    <link rel="canonical" href="http://demo.ovathemes.com/reon/contact-us-v2/" />
+    <link rel='shortlink' href='http://demo.ovathemes.com/reon/?p=78' />
+    <link rel="alternate" type="application/json+oembed"
+        href="http://demo.ovathemes.com/reon/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdemo.ovathemes.com%2Freon%2Fcontact-us-v2%2F" />
+    <link rel="alternate" type="text/xml+oembed"
+        href="http://demo.ovathemes.com/reon/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdemo.ovathemes.com%2Freon%2Fcontact-us-v2%2F&#038;format=xml" />
+    <link rel="icon" href="http://demo.ovathemes.com/reon/wp-content/uploads/2018/12/cropped-favicon-32x32.png"
+        sizes="32x32" />
+    <link rel="icon" href="http://demo.ovathemes.com/reon/wp-content/uploads/2018/12/cropped-favicon-192x192.png"
+        sizes="192x192" />
+    <link rel="apple-touch-icon"
+        href="http://demo.ovathemes.com/reon/wp-content/uploads/2018/12/cropped-favicon-180x180.png" />
+    <meta name="msapplication-TileImage"
+        content="http://demo.ovathemes.com/reon/wp-content/uploads/2018/12/cropped-favicon-270x270.png" />
 </head>
 
-<body>
-    <div id="loader">
-        <div id="status"></div>
-    </div>
-    <div id="site-header">
-        <header id="header" class="header-block-top">
-            <div class="container">
-                <div class="row">
-                    <div class="main-menu">
-                        <!-- navbar -->
-                        <nav class="navbar navbar-default" id="mainNav">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                    data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <div class="logo">
-                                    <a class="navbar-brand js-scroll-trigger logo-header" href="#">
-                                        <img src="images/hotels/logo.png" height="70" alt="logo">
-                                        <!-- <h1 style="color:white;">LOGO</h1> -->
-                                    </a>
+<body
+    class="page-template page-template-elementor_header_footer page page-id-78 elementor-default elementor-template-full-width elementor-kit-2623 elementor-page elementor-page-78">
+    <div class="ova-wrapp">
+        <div data-elementor-type="wp-post" data-elementor-id="179" class="elementor elementor-179"
+            data-elementor-settings="[]">
+            <div class="elementor-inner">
+                <div class="elementor-section-wrap">
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-f7c677a elementor-section-full_width ova_header_absoluted elementor-section-height-default elementor-section-height-default"
+                        data-id="f7c677a" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7672732"
+                                    data-id="7672732" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <section
+                                                class="elementor-section elementor-inner-section elementor-element elementor-element-419b1d8 elementor-section-content-middle elementor-hidden-tablet elementor-hidden-phone elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                data-id="419b1d8" data-element_type="section"
+                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2f4ed93"
+                                                            data-id="2f4ed93" data-element_type="column">
+                                                            <div
+                                                                class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-7182f36 elementor-widget__width-auto elementor-widget elementor-widget-ova_contact_info"
+                                                                        data-id="7182f36" data-element_type="widget"
+                                                                        data-widget_type="ova_contact_info.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="ova_contact_us">
+                                                                                <div class="text">Reon, 1535 Broadway,
+                                                                                    New York</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-a11e6b2 elementor-widget__width-auto elementor-widget elementor-widget-ova_contact_info"
+                                                                        data-id="a11e6b2" data-element_type="widget"
+                                                                        data-widget_type="ova_contact_info.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="ova_contact_us">
+                                                                                <div class="text"><a
+                                                                                        href="tel:+1 111-222-2222">+1
+                                                                                        111-222-2222</a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9a5f2de"
+                                                            data-id="9a5f2de" data-element_type="column">
+                                                            <div
+                                                                class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-8231afd elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons"
+                                                                        data-id="8231afd" data-element_type="widget"
+                                                                        data-widget_type="social-icons.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div
+                                                                                class="elementor-social-icons-wrapper elementor-grid">
+                                                                                <div class="elementor-grid-item"> <a
+                                                                                        class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-cb622f9"
+                                                                                        href="#" target="_blank"
+                                                                                        rel="nofollow"> <span
+                                                                                            class="elementor-screen-only">Facebook</span>
+                                                                                        <i class="fa fa-facebook"></i>
+                                                                                    </a></div>
+                                                                                <div class="elementor-grid-item"> <a
+                                                                                        class="elementor-icon elementor-social-icon elementor-social-icon-google-plus elementor-repeater-item-d9a9bea"
+                                                                                        href="#" target="_blank"
+                                                                                        rel="nofollow"> <span
+                                                                                            class="elementor-screen-only">Google-plus</span>
+                                                                                        <i
+                                                                                            class="fa fa-google-plus"></i>
+                                                                                    </a></div>
+                                                                                <div class="elementor-grid-item"> <a
+                                                                                        class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-e0a1e8e"
+                                                                                        href="#" target="_blank"
+                                                                                        rel="nofollow"> <span
+                                                                                            class="elementor-screen-only">Twitter</span>
+                                                                                        <i class="fa fa-twitter"></i>
+                                                                                    </a></div>
+                                                                                <div class="elementor-grid-item"> <a
+                                                                                        class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-5a17404"
+                                                                                        href="#" target="_blank"
+                                                                                        rel="nofollow"> <span
+                                                                                            class="elementor-screen-only">Instagram</span>
+                                                                                        <i class="fa fa-instagram"></i>
+                                                                                    </a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section
+                                                class="elementor-section elementor-inner-section elementor-element elementor-element-f65f208 elementor-section-content-middle ovamenu_shrink bg_white elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                data-id="f65f208" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e9e41b0"
+                                                            data-id="e9e41b0" data-element_type="column">
+                                                            <div
+                                                                class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-dab5d2e elementor-widget elementor-widget-ova_logo"
+                                                                        data-id="dab5d2e" data-element_type="widget"
+                                                                        data-widget_type="ova_logo.default">
+                                                                        <div class="elementor-widget-container"> <a
+                                                                                class="ova_logo"
+                                                                                href="http://demo.ovathemes.com/reon/">
+                                                                                <img src="http://demo.ovathemes.com/reon/wp-content/uploads/2018/12/logo-black.svg"
+                                                                                    alt="Reon Restaurant WordPress Theme"
+                                                                                    class="desk-logo d-none d-lg-block d-xl-block" />
+                                                                                <img src="http://demo.ovathemes.com/reon/wp-content/uploads/2018/12/logo-black.svg"
+                                                                                    alt="Reon Restaurant WordPress Theme"
+                                                                                    class="mobile-logo d-block d-lg-none d-xl-none" />
+                                                                                <img src="http://demo.ovathemes.com/reon/wp-content/uploads/2018/12/logo-black.svg"
+                                                                                    alt="Reon Restaurant WordPress Theme"
+                                                                                    class="logo-fixed" /> </a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9983c30"
+                                                            data-id="9983c30" data-element_type="column">
+                                                            <div
+                                                                class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-8aebbcc elementor-view-primary-menu elementor-widget__width-auto elementor-widget elementor-widget-ova_menu"
+                                                                        data-id="8aebbcc" data-element_type="widget"
+                                                                        data-widget_type="ova_menu.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="ova_menu_clasic">
+                                                                                <div
+                                                                                    class="ova_wrap_nav row NavBtn_right NavBtn_right_m">
+                                                                                    <button class="ova_openNav"
+                                                                                        type="button"> <i
+                                                                                            class="fas fa-bars"></i>
+                                                                                    </button>
+                                                                                    <div
+                                                                                        class="ova_nav canvas_left canvas_bg_gray">
+                                                                                        <a href="javascript:void(0)"
+                                                                                            class="ova_closeNav"><i
+                                                                                                class="fas fa-times"></i></a>
+                                                                                        <ul id="menu-primary-menu"
+                                                                                            class="menu sub_menu_dir_right">
+                                                                                            <li id="menu-item-83"
+                                                                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-83 dropdown">
+                                                                                                <a title="Home"
+                                                                                                    href="http://demo.ovathemes.com/reon/">Home<i
+                                                                                                        class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></a><button
+                                                                                                    type="button"
+                                                                                                    class="dropdown-toggle"><i
+                                                                                                        class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></button>
+                                                                                                <ul role="menu"
+                                                                                                    class=" dropdown-menu">
+                                                                                                    <li id="menu-item-99"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-99">
+                                                                                                        <a title="Home Page 1"
+                                                                                                            href="http://demo.ovathemes.com/reon/">Home
+                                                                                                            Page 1</a>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-100"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100">
+                                                                                                        <a title="Home Page 2"
+                                                                                                            href="http://demo.ovathemes.com/reon/home-page-2/">Home
+                                                                                                            Page 2</a>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-101"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101">
+                                                                                                        <a title="Home Page 3"
+                                                                                                            href="http://demo.ovathemes.com/reon/home-page-3/">Home
+                                                                                                            Page 3</a>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-102"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102">
+                                                                                                        <a title="Home Page 4"
+                                                                                                            href="http://demo.ovathemes.com/reon/home-page-4/">Home
+                                                                                                            Page 4</a>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-103"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103">
+                                                                                                        <a title="Home Page 5"
+                                                                                                            href="http://demo.ovathemes.com/reon/home-page-5/">Home
+                                                                                                            Page 5</a>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-104"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104">
+                                                                                                        <a title="Home Page 6"
+                                                                                                            href="http://demo.ovathemes.com/reon/home-page-6/">Home
+                                                                                                            Page 6</a>
+                                                                                                    </li>
+                                                                                                </ul>
+                                                                                            </li>
+                                                                                            <li id="menu-item-117"
+                                                                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-117 dropdown">
+                                                                                                <a title="Menu"
+                                                                                                    href="#">Menu<i
+                                                                                                        class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></a><button
+                                                                                                    type="button"
+                                                                                                    class="dropdown-toggle"><i
+                                                                                                        class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></button>
+                                                                                                <ul role="menu"
+                                                                                                    class=" dropdown-menu">
+                                                                                                    <li id="menu-item-108"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108">
+                                                                                                        <a title="Menu V1"
+                                                                                                            href="http://demo.ovathemes.com/reon/menu-v1/">Menu
+                                                                                                            V1</a></li>
+                                                                                                    <li id="menu-item-107"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107">
+                                                                                                        <a title="Menu Starter"
+                                                                                                            href="http://demo.ovathemes.com/reon/menu-starter/">Menu
+                                                                                                            Starter</a>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-106"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106">
+                                                                                                        <a title="Menu Lunch"
+                                                                                                            href="http://demo.ovathemes.com/reon/menu-lunch/">Menu
+                                                                                                            Lunch</a>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-105"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105">
+                                                                                                        <a title="Menu Dinner"
+                                                                                                            href="http://demo.ovathemes.com/reon/menu-dinner/">Menu
+                                                                                                            Dinner</a>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-109"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109">
+                                                                                                        <a title="Menu V2"
+                                                                                                            href="http://demo.ovathemes.com/reon/menu-v2/">Menu
+                                                                                                            V2</a></li>
+                                                                                                </ul>
+                                                                                            </li>
+                                                                                            <li id="menu-item-118"
+                                                                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-118 dropdown">
+                                                                                                <a title="Pages"
+                                                                                                    href="#">Pages<i
+                                                                                                        class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></a><button
+                                                                                                    type="button"
+                                                                                                    class="dropdown-toggle"><i
+                                                                                                        class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></button>
+                                                                                                <ul role="menu"
+                                                                                                    class=" dropdown-menu">
+                                                                                                    <li id="menu-item-85"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85">
+                                                                                                        <a title="About Us"
+                                                                                                            href="http://demo.ovathemes.com/reon/about-us/">About
+                                                                                                            Us</a></li>
+                                                                                                    <li id="menu-item-110"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110">
+                                                                                                        <a title="Our Team"
+                                                                                                            href="http://demo.ovathemes.com/reon/our-team/">Our
+                                                                                                            Team</a>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-94"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-94 dropdown">
+                                                                                                        <a title="Events"
+                                                                                                            href="http://demo.ovathemes.com/reon/events/">Events<i
+                                                                                                                class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></a><button
+                                                                                                            type="button"
+                                                                                                            class="dropdown-toggle"><i
+                                                                                                                class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></button>
+                                                                                                        <ul role="menu"
+                                                                                                            class=" dropdown-menu">
+                                                                                                            <li id="menu-item-1837"
+                                                                                                                class="menu-item menu-item-type-post_type menu-item-object-event menu-item-1837">
+                                                                                                                <a title="Events Details"
+                                                                                                                    href="http://demo.ovathemes.com/reon/event/arcu-cursus-vitae/">Events
+                                                                                                                    Details</a>
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-2059"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2059 dropdown">
+                                                                                                        <a title="Reservation Form"
+                                                                                                            href="http://demo.ovathemes.com/reon/reservation-form-v1/">Reservation
+                                                                                                            Form<i
+                                                                                                                class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></a><button
+                                                                                                            type="button"
+                                                                                                            class="dropdown-toggle"><i
+                                                                                                                class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></button>
+                                                                                                        <ul role="menu"
+                                                                                                            class=" dropdown-menu">
+                                                                                                            <li id="menu-item-113"
+                                                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113">
+                                                                                                                <a title="Reservation Form v1"
+                                                                                                                    href="http://demo.ovathemes.com/reon/reservation-form-v1/">Reservation
+                                                                                                                    Form
+                                                                                                                    v1</a>
+                                                                                                            </li>
+                                                                                                            <li id="menu-item-114"
+                                                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114">
+                                                                                                                <a title="Reservation Form v2"
+                                                                                                                    href="http://demo.ovathemes.com/reon/reservation-form-v2/">Reservation
+                                                                                                                    Form
+                                                                                                                    v2</a>
+                                                                                                            </li>
+                                                                                                            <li id="menu-item-115"
+                                                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115">
+                                                                                                                <a title="Reservation Form v3"
+                                                                                                                    href="http://demo.ovathemes.com/reon/reservation-form-v3/">Reservation
+                                                                                                                    Form
+                                                                                                                    v3</a>
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-1653"
+                                                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1653">
+                                                                                                        <a title="404"
+                                                                                                            href="http://demo.ovathemes.com/reon/404-notfound">404</a>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-91"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91">
+                                                                                                        <a title="Comming Soon"
+                                                                                                            href="http://demo.ovathemes.com/reon/comming-soon/">Comming
+                                                                                                            Soon</a>
+                                                                                                    </li>
+                                                                                                </ul>
+                                                                                            </li>
+                                                                                            <li id="menu-item-119"
+                                                                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-119 dropdown">
+                                                                                                <a title="Gallery"
+                                                                                                    href="#">Gallery<i
+                                                                                                        class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></a><button
+                                                                                                    type="button"
+                                                                                                    class="dropdown-toggle"><i
+                                                                                                        class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></button>
+                                                                                                <ul role="menu"
+                                                                                                    class=" dropdown-menu">
+                                                                                                    <li id="menu-item-96"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96">
+                                                                                                        <a title="Gallery Grid v1"
+                                                                                                            href="http://demo.ovathemes.com/reon/gallery-grid-v1/">Gallery
+                                                                                                            Grid v1</a>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-97"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
+                                                                                                        <a title="Gallery Grid v2"
+                                                                                                            href="http://demo.ovathemes.com/reon/gallery-grid-v2/">Gallery
+                                                                                                            Grid v2</a>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-98"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
+                                                                                                        <a title="Gallery Wall"
+                                                                                                            href="http://demo.ovathemes.com/reon/gallery-wall/">Gallery
+                                                                                                            Wall</a>
+                                                                                                    </li>
+                                                                                                </ul>
+                                                                                            </li>
+                                                                                            <li id="menu-item-1402"
+                                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1402 dropdown">
+                                                                                                <a title="Blog"
+                                                                                                    href="http://demo.ovathemes.com/reon/blog/">Blog<i
+                                                                                                        class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></a><button
+                                                                                                    type="button"
+                                                                                                    class="dropdown-toggle"><i
+                                                                                                        class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></button>
+                                                                                                <ul role="menu"
+                                                                                                    class=" dropdown-menu">
+                                                                                                    <li id="menu-item-2326"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2326">
+                                                                                                        <a title="Blog Detail"
+                                                                                                            href="http://demo.ovathemes.com/reon/egestas-fringilla-phasellus/">Blog
+                                                                                                            Detail</a>
+                                                                                                    </li>
+                                                                                                </ul>
+                                                                                            </li>
+                                                                                            <li id="menu-item-121"
+                                                                                                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-121 dropdown">
+                                                                                                <a title="Contact"
+                                                                                                    href="#">Contact<i
+                                                                                                        class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></a><button
+                                                                                                    type="button"
+                                                                                                    class="dropdown-toggle"><i
+                                                                                                        class="arrow_carrot-down zmdi zmdi-chevron-down zmdi-hc-fw"></i></button>
+                                                                                                <ul role="menu"
+                                                                                                    class=" dropdown-menu">
+                                                                                                    <li id="menu-item-92"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92">
+                                                                                                        <a title="Contact Us v1"
+                                                                                                            href="http://demo.ovathemes.com/reon/contact-us-v1/">Contact
+                                                                                                            Us v1</a>
+                                                                                                    </li>
+                                                                                                    <li id="menu-item-93"
+                                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-78 current_page_item menu-item-93 active">
+                                                                                                        <a title="Contact Us v2"
+                                                                                                            href="http://demo.ovathemes.com/reon/contact-us-v2/">Contact
+                                                                                                            Us v2</a>
+                                                                                                    </li>
+                                                                                                </ul>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="ova_closeCanvas ova_closeNav">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-8056559 elementor-align-right elementor-hidden-phone elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                                                        data-id="8056559" data-element_type="widget"
+                                                                        data-widget_type="button.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-button-wrapper"> <a
+                                                                                    href="http://demo.ovathemes.com/reon/reservation-form-v1/"
+                                                                                    rel="nofollow"
+                                                                                    class="elementor-button-link elementor-button elementor-size-sm"
+                                                                                    role="button"> <span
+                                                                                        class="elementor-button-content-wrapper">
+                                                                                        <span
+                                                                                            class="elementor-button-text">Reservation</span>
+                                                                                    </span> </a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div id="navbar" class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li class="active">
-
-                                        <!-- <li> -->
-                                        <a href="home.html#mu-slider">Home</a>
-                                    </li>
-
-                                    <li><a href="home.html#about">About us</a></li>
-                                    <li><a href="home.html#menu">Menu</a></li>
-                                    <li><a href="home.html#our_team">Team</a></li>
-                                    <li><a href="home.html#gallery">Gallery</a></li>
-                                    <li><a href="video-gallery.html">Video Gallery</a></li>
-                                    <!-- <li><a href="home.html#blog">Blog</a></li> -->
-                                    <!-- <li><a href="home.html#pricing">pricing</a></li>
-                                    <li><a href="home.html#reservation">Reservation</a></li> -->
-                                    <li><a href="home.html#mu-contact">Contact us</a></li>
-
-                                </ul>
+                        </div>
+                    </section>
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-4bf6b88 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="4bf6b88" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-93180bc"
+                                    data-id="93180bc" data-element_type="column">
+                                    <div class="elementor-column-wrap">
+                                        <div class="elementor-widget-wrap"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <!-- end nav-collapse -->
-                        </nav>
-                        <!-- end navbar -->
-                    </div>
+                        </div>
+                    </section>
                 </div>
-                <!-- end row -->
             </div>
-            <!-- end container-fluid -->
-        </header>
-        <!-- end header -->
+        </div>
+        <div data-elementor-type="wp-post" data-elementor-id="78"
+            class="elementor elementor-78 elementor-bc-flex-widget" data-elementor-settings="[]">
+            <div class="elementor-inner">
+                <div class="elementor-section-wrap">
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-1f1adab elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                        data-id="1f1adab" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-df0a6d6"
+                                    data-id="df0a6d6" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-6ca9f95 elementor-widget elementor-widget-ova_heading"
+                                                data-id="6ca9f95" data-element_type="widget"
+                                                data-widget_type="ova_heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <section class="breadcrumb-menu-v2 breadcrumb-section section-box"
+                                                        style="background-image: url(http://demo.ovathemes.com/reon/wp-content/uploads/2018/12/events-bc.jpg)">
+                                                        <div class="container">
+                                                            <div class="breadcrumb-inner">
+                                                                <h1>Contact Us</h1> <span
+                                                                    class="breadcrumbs-text">Volutpat odio facilisis
+                                                                    mauris sit. Consectetur adipiscing elit pellentesque
+                                                                    habitant morbi tristique.</span>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-014712a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="014712a" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0b0c62b"
+                                    data-id="0b0c62b" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-f0f3f55 elementor-widget elementor-widget-heading"
+                                                data-id="f0f3f55" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h3 class="elementor-heading-title elementor-size-default">Contact
+                                                        Info</h3>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-716c770 elementor-widget elementor-widget-text-editor"
+                                                data-id="716c770" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                        <p>Feugiat nisl pretium fusce id velit ut. Vivamus at augue eget
+                                                            arcu dictum varius duis at. Commodo nulla facilisi nullam
+                                                            vehicula ipsum a arcu. Sed sed risus pretium quam
+                                                            vulputate.<br />Commodo nulla facilisi nullam vehicula ipsum
+                                                            a arcu. Sed sed risus pretium quam vulputate.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-d0ec851 elementor-widget elementor-widget-ova_reservation_info_v2"
+                                                data-id="d0ec851" data-element_type="widget"
+                                                data-widget_type="ova_reservation_info_v2.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="contact-v2-section">
+                                                        <div class="contact-content">
+                                                            <div class="row">
+                                                                <div class="col-6">
+                                                                    <div class="contact-info contact-address"> <i
+                                                                            class="zmdi zmdi-pin"></i>
+                                                                        <h4>Address Location</h4> <span>Reon, 1535
+                                                                            Broadway, New York</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="contact-info"> <i
+                                                                            class="zmdi zmdi-time"></i>
+                                                                        <h4>Open Time</h4>
+                                                                        <div class="time">
+                                                                            <div class="time-inner"> <span
+                                                                                    class="day">Lunch:</span> <span
+                                                                                    class="hour">Everyday</span></div>
+                                                                            <div class="time-inner"> <span
+                                                                                    class="day">Dinner: Mon- Thu</span>
+                                                                                <span class="hour">18:00-21:30</span>
+                                                                            </div>
+                                                                            <div class="time-inner"> <span
+                                                                                    class="day">Dinner: Fri- Sun</span>
+                                                                                <span class="hour">19:00-21:00</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="contact-info"> <i
+                                                                            class="zmdi zmdi-phone"></i>
+                                                                        <h4>Phone Number</h4> <span><a
+                                                                                href="tel:+1 111-222-9999">+1
+                                                                                111-222-9999</a></span> <span><a
+                                                                                href="tel:+1 666-777-9999">+1
+                                                                                666-777-9999</a></span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="contact-info contact-email"> <i
+                                                                            class="zmdi zmdi-email"></i>
+                                                                        <h4>Email Address</h4> <span><a
+                                                                                href="/cdn-cgi/l/email-protection#cf8ca0a1bbaeacbb8faab7aea2bfa3aae1aca0a2"><span
+                                                                                    class="__cf_email__"
+                                                                                    data-cfemail="175478796376746357726f767a677b723974787a">[email&#160;protected]</span></a></span>
+                                                                        <span><a
+                                                                                href="/cdn-cgi/l/email-protection#2f664149406f4a574e425f434a014c4042"><span
+                                                                                    class="__cf_email__"
+                                                                                    data-cfemail="a1e8cfc7cee1c4d9c0ccd1cdc48fc2cecc">[email&#160;protected]</span></a></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5d70a9c"
+                                    data-id="5d70a9c" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-f8112f9 elementor-widget elementor-widget-shortcode"
+                                                data-id="f8112f9" data-element_type="widget"
+                                                data-widget_type="shortcode.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-shortcode">
+                                                        <div role="form" class="wpcf7" id="wpcf7-f1507-p78-o1"
+                                                            lang="en-US" dir="ltr">
+                                                            <div class="screen-reader-response">
+                                                                <p role="status" aria-live="polite" aria-atomic="true">
+                                                                </p>
+                                                                <ul></ul>
+                                                            </div>
+                                                            <form action="/reon/contact-us-v2/#wpcf7-f1507-p78-o1"
+                                                                method="post" class="wpcf7-form init"
+                                                                novalidate="novalidate" data-status="init">
+                                                                <div style="display: none;"> <input type="hidden"
+                                                                        name="_wpcf7" value="1507" /> <input
+                                                                        type="hidden" name="_wpcf7_version"
+                                                                        value="5.3.2" /> <input type="hidden"
+                                                                        name="_wpcf7_locale" value="en_US" /> <input
+                                                                        type="hidden" name="_wpcf7_unit_tag"
+                                                                        value="wpcf7-f1507-p78-o1" /> <input
+                                                                        type="hidden" name="_wpcf7_container_post"
+                                                                        value="78" /> <input type="hidden"
+                                                                        name="_wpcf7_posted_data_hash" value="" /></div>
+                                                                <div class="contact-v2-section">
+                                                                    <div class="quote-form">
+                                                                        <h3>Contact Form</h3>
+                                                                        <p>Egestas fringilla phasellus faucibus
+                                                                            scelerisq eleifend donec pretium vulputate.
+                                                                        </p>
+                                                                        <div class="form-contact js-contact-form"
+                                                                            method="POST"
+                                                                            action="includes/contact-form.php">
+                                                                            <div class="form-input"><span
+                                                                                    class="wpcf7-form-control-wrap your-name"><input
+                                                                                        type="text" name="your-name"
+                                                                                        value="" size="40"
+                                                                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                        aria-required="true"
+                                                                                        aria-invalid="false"
+                                                                                        placeholder="Your Name" /></span>
+                                                                            </div>
+                                                                            <div class="form-input"><span
+                                                                                    class="wpcf7-form-control-wrap your-email"><input
+                                                                                        type="email" name="your-email"
+                                                                                        value="" size="40"
+                                                                                        class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                                                                        aria-required="true"
+                                                                                        aria-invalid="false"
+                                                                                        placeholder="Your Mail" /></span>
+                                                                            </div>
+                                                                            <div class="form-input"><span
+                                                                                    class="wpcf7-form-control-wrap your-phone"><input
+                                                                                        type="text" name="your-phone"
+                                                                                        value="" size="40"
+                                                                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                        aria-required="true"
+                                                                                        aria-invalid="false"
+                                                                                        placeholder="Your Phone" /></span>
+                                                                            </div>
+                                                                            <div class="form-input"><span
+                                                                                    class="wpcf7-form-control-wrap your-subject"><input
+                                                                                        type="text" name="your-subject"
+                                                                                        value="" size="40"
+                                                                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                        aria-required="true"
+                                                                                        aria-invalid="false"
+                                                                                        placeholder="Subject" /></span>
+                                                                            </div>
+                                                                            <div class="form-bottom"><input
+                                                                                    type="submit"
+                                                                                    class="end-quote-1 au-btn au-btn-yellow btn-small"
+                                                                                    name="quote" value="SUBMIT"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="wpcf7-response-output" aria-hidden="true">
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-02feba1 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                        data-id="02feba1" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9a636bf"
+                                    data-id="9a636bf" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-4b3ab3a elementor-widget elementor-widget-google_maps"
+                                                data-id="4b3ab3a" data-element_type="widget"
+                                                data-widget_type="google_maps.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-custom-embed"><iframe frameborder="0"
+                                                            scrolling="no" marginheight="0" marginwidth="0"
+                                                            src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near"
+                                                            title="London Eye, London, United Kingdom"
+                                                            aria-label="London Eye, London, United Kingdom"></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div data-elementor-type="wp-post" data-elementor-id="511" class="elementor elementor-511"
+            data-elementor-settings="[]">
+            <div class="elementor-inner">
+                <div class="elementor-section-wrap">
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-ea3d7c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="ea3d7c7" data-element_type="section"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-aa766ee"
+                                    data-id="aa766ee" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-5327722 elementor-widget elementor-widget-ova_logo"
+                                                data-id="5327722" data-element_type="widget"
+                                                data-widget_type="ova_logo.default">
+                                                <div class="elementor-widget-container"> <a class="ova_logo"
+                                                        href="http://demo.ovathemes.com/reon/"> <img
+                                                            src="http://demo.ovathemes.com/reon/wp-content/uploads/2018/12/logo-white.svg"
+                                                            alt="Reon Restaurant WordPress Theme"
+                                                            class="desk-logo d-none d-lg-block d-xl-block" /> <img
+                                                            src="http://demo.ovathemes.com/reon/wp-content/uploads/2018/12/logo-white.svg"
+                                                            alt="Reon Restaurant WordPress Theme"
+                                                            class="mobile-logo d-block d-lg-none d-xl-none" /> <img
+                                                            src="http://demo.ovathemes.com/reon/wp-content/uploads/2018/12/logo-white.svg"
+                                                            alt="Reon Restaurant WordPress Theme" class="logo-fixed" />
+                                                    </a></div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-5d44434 elementor-widget elementor-widget-text-editor"
+                                                data-id="5d44434" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                        <p><span style="color: #ffffff;">Turpis tincidunt id aliquet
+                                                                feugiat. Lectus magna fringilla urna porttitor rhoncus.
+                                                                Velit sed ullamcorper morbi tincidunt ornare mas.</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-dde44fa elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons"
+                                                data-id="dde44fa" data-element_type="widget"
+                                                data-widget_type="social-icons.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-social-icons-wrapper elementor-grid">
+                                                        <div class="elementor-grid-item"> <a
+                                                                class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-cb622f9"
+                                                                href="#" target="_blank"> <span
+                                                                    class="elementor-screen-only">Facebook</span> <i
+                                                                    class="fa fa-facebook"></i> </a></div>
+                                                        <div class="elementor-grid-item"> <a
+                                                                class="elementor-icon elementor-social-icon elementor-social-icon-google-plus elementor-repeater-item-d9a9bea"
+                                                                href="#" target="_blank"> <span
+                                                                    class="elementor-screen-only">Google-plus</span> <i
+                                                                    class="fa fa-google-plus"></i> </a></div>
+                                                        <div class="elementor-grid-item"> <a
+                                                                class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-e0a1e8e"
+                                                                href="#" target="_blank"> <span
+                                                                    class="elementor-screen-only">Twitter</span> <i
+                                                                    class="fa fa-twitter"></i> </a></div>
+                                                        <div class="elementor-grid-item"> <a
+                                                                class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-5a17404"
+                                                                href="#" target="_blank"> <span
+                                                                    class="elementor-screen-only">Instagram</span> <i
+                                                                    class="fa fa-instagram"></i> </a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5889fdb"
+                                    data-id="5889fdb" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-9ed2ea3 elementor-widget elementor-widget-heading"
+                                                data-id="9ed2ea3" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h5 class="elementor-heading-title elementor-size-default">RECENT
+                                                        POSTS</h5>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-5ba0a13 elementor-widget elementor-widget-ova_recent_post"
+                                                data-id="5ba0a13" data-element_type="widget"
+                                                data-widget_type="ova_recent_post.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ova_recent_post">
+                                                        <ul>
+                                                            <li><a href="http://demo.ovathemes.com/reon/egestas-fringilla-phasellus/"
+                                                                    class="second_font">Egestas Fringilla Phasellus</a>
+                                                            </li>
+                                                            <li><a href="http://demo.ovathemes.com/reon/arcu-cursus-euismod-quis/"
+                                                                    class="second_font">Arcu Cursus Euismod Quis</a>
+                                                            </li>
+                                                            <li><a href="http://demo.ovathemes.com/reon/magna-etiam-tempor-viverra/"
+                                                                    class="second_font">Magna Etiam Tempor Viverra</a>
+                                                            </li>
+                                                            <li><a href="http://demo.ovathemes.com/reon/varius-sit-amet-mattis/"
+                                                                    class="second_font">Varius Sit Amet Mattis</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-f2cdda6"
+                                    data-id="f2cdda6" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-0839454 elementor-widget elementor-widget-heading"
+                                                data-id="0839454" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h5 class="elementor-heading-title elementor-size-default">GALLERY
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-e89141d elementor-widget elementor-widget-ova_gallery_v2"
+                                                data-id="e89141d" data-element_type="widget"
+                                                data-widget_type="ova_gallery_v2.default">
+                                                <div class="elementor-widget-container">
+                                                    <section class="gallery-section-wall gallery-hp-1 p_mobile">
+                                                        <div class="container-fluid">
+                                                            <div class="gallery-content">
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <div class="gallery-detail">
+                                                                            <figure> <img
+                                                                                    src="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-1.jpg"
+                                                                                    srcset="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-1-300x265.jpg 300w, http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-1-600x530.jpg 600w, http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-1.jpg 750w"
+                                                                                    alt="Gallery"></figure>
+                                                                            <div class="overlay"></div>
+                                                                            <div class="gallery-zoom"> <a
+                                                                                    href="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-1.jpg"
+                                                                                    data-fancybox="gallery"
+                                                                                    class="gallery-elements"> <i
+                                                                                        class="zmdi zmdi-search"></i>
+                                                                                </a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <div class="gallery-detail">
+                                                                            <figure> <img
+                                                                                    src="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-2.jpg"
+                                                                                    srcset="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-2-300x265.jpg 300w, http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-2-600x530.jpg 600w, http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-2.jpg 750w"
+                                                                                    alt="Gallery"></figure>
+                                                                            <div class="overlay"></div>
+                                                                            <div class="gallery-zoom"> <a
+                                                                                    href="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-2.jpg"
+                                                                                    data-fancybox="gallery"
+                                                                                    class="gallery-elements"> <i
+                                                                                        class="zmdi zmdi-search"></i>
+                                                                                </a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <div class="gallery-detail">
+                                                                            <figure> <img
+                                                                                    src="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-3.jpg"
+                                                                                    srcset="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-3-300x265.jpg 300w, http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-3-600x530.jpg 600w, http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-3.jpg 750w"
+                                                                                    alt="Gallery"></figure>
+                                                                            <div class="overlay"></div>
+                                                                            <div class="gallery-zoom"> <a
+                                                                                    href="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-3.jpg"
+                                                                                    data-fancybox="gallery"
+                                                                                    class="gallery-elements"> <i
+                                                                                        class="zmdi zmdi-search"></i>
+                                                                                </a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <div class="gallery-detail">
+                                                                            <figure> <img
+                                                                                    src="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-4.jpg"
+                                                                                    srcset="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-4-300x265.jpg 300w, http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-4-600x530.jpg 600w, http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-4.jpg 750w"
+                                                                                    alt="Gallery"></figure>
+                                                                            <div class="overlay"></div>
+                                                                            <div class="gallery-zoom"> <a
+                                                                                    href="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-4.jpg"
+                                                                                    data-fancybox="gallery"
+                                                                                    class="gallery-elements"> <i
+                                                                                        class="zmdi zmdi-search"></i>
+                                                                                </a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <div class="gallery-detail">
+                                                                            <figure> <img
+                                                                                    src="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-5.jpg"
+                                                                                    srcset="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-5-300x265.jpg 300w, http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-5-600x530.jpg 600w, http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-5.jpg 750w"
+                                                                                    alt="Gallery"></figure>
+                                                                            <div class="overlay"></div>
+                                                                            <div class="gallery-zoom"> <a
+                                                                                    href="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-5.jpg"
+                                                                                    data-fancybox="gallery"
+                                                                                    class="gallery-elements"> <i
+                                                                                        class="zmdi zmdi-search"></i>
+                                                                                </a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <div class="gallery-detail">
+                                                                            <figure> <img
+                                                                                    src="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-6.jpg"
+                                                                                    srcset="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-6-300x265.jpg 300w, http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-6-600x530.jpg 600w, http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-6.jpg 750w"
+                                                                                    alt="Gallery"></figure>
+                                                                            <div class="overlay"></div>
+                                                                            <div class="gallery-zoom"> <a
+                                                                                    href="http://demo.ovathemes.com/reon/wp-content/uploads/2019/01/menu-dinner-steak-6.jpg"
+                                                                                    data-fancybox="gallery"
+                                                                                    class="gallery-elements"> <i
+                                                                                        class="zmdi zmdi-search"></i>
+                                                                                </a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-d5134a8"
+                                    data-id="d5134a8" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-666cba5 elementor-widget elementor-widget-heading"
+                                                data-id="666cba5" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h5 class="elementor-heading-title elementor-size-default">CONTACT
+                                                        INFO</h5>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-3fe1b11 elementor-widget elementor-widget-ova_contact_info"
+                                                data-id="3fe1b11" data-element_type="widget"
+                                                data-widget_type="ova_contact_info.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ova_contact_us">
+                                                        <div class="text">Reon, 1535 Broadway, New York</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-3d78f8c elementor-widget elementor-widget-ova_contact_info"
+                                                data-id="3d78f8c" data-element_type="widget"
+                                                data-widget_type="ova_contact_info.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ova_contact_us">
+                                                        <div class="text"><a href="tel:+1 888-999-3333">+1
+                                                                888-999-3333</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-3567b46 elementor-widget elementor-widget-ova_contact_info"
+                                                data-id="3567b46" data-element_type="widget"
+                                                data-widget_type="ova_contact_info.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ova_contact_us">
+                                                        <div class="text"><a
+                                                                href="/cdn-cgi/l/email-protection#d497bbbaa0b5b7a094b1acb5b9a4b8b1fab7bbb9"><span
+                                                                    class="__cf_email__"
+                                                                    data-cfemail="03406c6d7762607743667b626e736f662d606c6e">[email&#160;protected]</span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-5927b4a elementor-widget elementor-widget-ova_contact_info"
+                                                data-id="5927b4a" data-element_type="widget"
+                                                data-widget_type="ova_contact_info.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ova_contact_us">
+                                                        <div class="text">Lunch</div>
+                                                        <div class="des">Everyday</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-5d7f7e6 elementor-widget elementor-widget-ova_contact_info"
+                                                data-id="5d7f7e6" data-element_type="widget"
+                                                data-widget_type="ova_contact_info.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ova_contact_us">
+                                                        <div class="text">Dinner: Mon- Thu</div>
+                                                        <div class="des">18:00-21:30</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-b6e12d6 elementor-widget elementor-widget-ova_contact_info"
+                                                data-id="b6e12d6" data-element_type="widget"
+                                                data-widget_type="ova_contact_info.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ova_contact_us">
+                                                        <div class="text">Dinner: Fri- Sun</div>
+                                                        <div class="des">19:00-21:00</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-4b154e1 elementor-section-content-middle elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                        data-id="4b154e1" data-element_type="section"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9f5e4e3"
+                                    data-id="9f5e4e3" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-4a524dd elementor-widget elementor-widget-text-editor"
+                                                data-id="4a524dd" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                        <p style="text-align: center;"><span
+                                                                style="color: #999999;">Copyright @ 2019 <span
+                                                                    style="color: #ffffff;"><a style="color: #ffffff;"
+                                                                        href="http://demo.ovathemes.com/reon">Reon</a><span
+                                                                        style="color: #999999;">.</span> </span>Get The
+                                                                Theme</span></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- end site-header -->
-
-    <!-- Showcase -->
-    <!-- <section class="showcase">
-        <div class="container grid"> -->
-    <section class="youtube-video">
-        <div class="shape__container">
-            <div class="shape">
-                <div class="customer__picture">
-                    <iframe width="300" height="300" src="https://www.youtube.com/embed/eCiyotxkGAs" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-
-                </div>
-                <div class="text">
-                    <!-- <img class="logo" src="./images/Spectur.svg" alt="" /> -->
-                    <p>
-                        Video description
-                    </p>
-                </div>
-            </div>
-            <div class="shape__shadow"></div>
-        </div>
-
-
-
-
-
-
-        <div class="shape__container">
-            <div class="shape">
-                <div class="customer__picture">
-                    <iframe width="300" height="300" src="https://www.youtube.com/embed/eCiyotxkGAs" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-
-                </div>
-                <div class="text">
-                    <!-- <img class="logo" src="./images/Spectur.svg" alt="" /> -->
-                    <p>
-                        Video description
-                    </p>
-                </div>
-            </div>
-            <div class="shape__shadow"></div>
-        </div>
-
-        <div class="shape__container">
-            <div class="shape">
-                <div class="customer__picture">
-                    <iframe width="300" height="300" src="https://www.youtube.com/embed/eCiyotxkGAs" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-
-                </div>
-                <div class="text">
-                    <!-- <img class="logo" src="./images/Spectur.svg" alt="" /> -->
-                    <p>
-                        Video description
-                    </p>
-                </div>
-            </div>
-            <div class="shape__shadow"></div>
-        </div>
-
-    </section>
-
-
-
-
-    <!-- ALL JS FILES -->
-    <script src="js/all.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/custom.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type='text/javascript'
+        id='contact-form-7-js-extra'>var wpcf7 = { "apiSettings": { "root": "http:\/\/demo.ovathemes.com\/reon\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" }, "cached": "1" };</script>
+    <script type='text/javascript' id='reon-script-js-extra'>var cal_dateformat = "dd-mm-yy";
+        var cal_disable_day = "no";</script>
+    <script type='text/javascript'
+        id='elementor-frontend-js-before'>var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "version": "3.0.14", "is_static": false, "legacyMode": { "elementWrappers": true }, "urls": { "assets": "http:\/\/demo.ovathemes.com\/reon\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "page": [], "editorPreferences": [] }, "kit": { "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 78, "title": "Contact%20Us%20v2%20%E2%80%93%20Reon%20Restaurant%20WordPress%20Theme", "excerpt": "", "featuredImage": false } };</script>
+    <script defer
+        src="http://demo.ovathemes.com/reon/wp-content/cache/autoptimize/js/autoptimize_9cd34f13c556a5d6e63de9d51e124cb1.js"></script>
 </body>
 
 </html>
